@@ -1,8 +1,10 @@
 import React from 'react';
+import Header from '../layouts/Header';
+import web from '../img/4.png';
 
 const Home = () => {
   return (
-    <h1>hello</h1>
+    <Header name="Grow your busies with" imgsrc={web} visit="/" btnname="Get Started"/>
   );
 }
 

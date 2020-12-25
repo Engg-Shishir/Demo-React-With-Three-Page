@@ -1,8 +1,10 @@
 import React from 'react';
+import Header from '../layouts/Header';
+import web from '../img/1.png';
 
 const About = () => {
   return (
-    <h1>hello</h1>
+    <Header name="Welcome to About Page" imgsrc={web} visit="/contact" btnname="Contact Now"/>
   );
 }
 

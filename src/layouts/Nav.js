@@ -5,7 +5,7 @@ import {NavLink } from 'react-router-dom';
 const Nav = () =>{
  return (
   <>
-  <div className="container">
+  <div className="container p-lg-0">
     <nav className="navbar navbar-expand-sm navbar-dark bg-info">
     <NavLink className="navbar-brand" to="/react">REACT</NavLink >
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,9 +22,6 @@ const Nav = () =>{
         </li>
         <li className="nav-item ">
           <NavLink activeClassName="menu_active" className="nav-link"  exact to="/service">Services</NavLink>
-        </li>
-        <li className="nav-item ">
-          <NavLink activeClassName="menu_active" className="nav-link"  exact to="/contact">Contact</NavLink>
         </li>
       </ul>
     </div>
