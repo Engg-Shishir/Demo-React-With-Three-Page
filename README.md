@@ -3,4 +3,5 @@
 
 
 + install react router dom for dynamic routing `npm i react-router-dom`
++ install bootstrap `npm i bootstrap`
 
